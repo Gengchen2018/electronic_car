@@ -31,7 +31,7 @@ void Servo_Locate_Init()
   servo_L_z.attach(L_z);
   servo_L_z.write(70);
   delay(200);
- servo_L_z.detach();
+  servo_L_z.detach();
 
   servo_R_z.attach(R_z);
   servo_R_z.write(140);
